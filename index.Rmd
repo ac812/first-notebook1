@@ -1,0 +1,67 @@
+---
+title: "My first notebook"
+author: Alexia Cardona
+date: 1 December 2022
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Heading 1
+This is just normal text .  This is **bold**. This is *italics*.
+
+<!-- Example of a comment -->
+<!-- Another example of a comment -->
+\  
+</br>
+
+Other text here.
+
+## Heading 2 {#markdown-header}
+A few text here
+
+### Heading 3
+More text here and [this is the link](#markdown-header).
+
+This is a link to an [external website](http://www.google.com).
+
+This text has a footnote [^1]
+
+[^1]: This is my footnote text.
+
+1. Item 1
+2. Item 2
+3. Item 3
+    a. Item 3a
+         i. Item 3ai
+4. Item 4
+
+# Inserting images
+
+![R Logo](img/rlogo.png)
+
+I want to add a block here 
+
+> Here is my block
+
+```
+print("Hello world)
+x <- 1
+```
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
